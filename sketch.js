@@ -122,6 +122,7 @@ function draw(){
        energy = 0;
        
       }   //CIERRE DEL PARENTESIS TRY AGAIN
+      } //CIERRE DEL PARENTESIS IF MAGNITUDE
          
          //image(myImage1,0,0,windowWidth,windowHeight);
          //tap on the arrow
