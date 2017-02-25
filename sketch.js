@@ -101,28 +101,28 @@ function draw(){
        
       if (magnitude <= 6){
          textFont(fontOCRB);      
-        textSize(height/35);
-        textAlign(CENTER);
-        textStyle(BOLD);
-        text("C´MON, THIS IS JUST",width/2, height - height/2);
-        text("A LITTLE SHAKE!",width/2, height - height/2.2);
+         textSize(height/35);
+         textAlign(CENTER);
+         textStyle(BOLD);
+         text("C´MON,THIS IS JUST A LITTLE SHAKE",width/2, height - height/2);
+         
+         textFont(fontMetaBold);
+         fill(0);
+         noStroke();
+         textSize(height/30);
+         textAlign(CENTER);
+         textStyle(BOLD);
+         text("TRY AGAIN",width/4, height - height/15);
+        
+       //CIERRE DEL IF MAGNITUDE
     
-        textFont(fontMetaBold);
-        fill(0);
-        noStroke();
-        textSize(height/30);
-        textAlign(CENTER);
-        textStyle(BOLD);
-        text("TRY AGAIN",width/4, height - height/15);
-    
-    //tap on TRY AGAIN 
+     } //tap on TRY AGAIN 
      if(touchX > width/4 - width/7 && touchX < width/4 + width/7 && touchY > height - height/15 - width/7 && touchY <  height - height/15 + width/7){   
        
        image(Cover,0,0,windowWidth,windowHeight); 
        energy = 0;
        
-      }   //CIERRE DEL PARENTESIS TRY AGAIN
-      } //CIERRE DEL PARENTESIS IF MAGNITUDE
+      }  //CIERRE PARENTESIS TRY AGAIN
          
          //image(myImage1,0,0,windowWidth,windowHeight);
          //tap on the arrow
